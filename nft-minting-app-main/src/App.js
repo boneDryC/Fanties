@@ -166,7 +166,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `NICE, the ${CONFIG.NFT_NAME} is yours! go visit [Paintswap.finance](https://paintswap.finance/marketplace/collections/0xbd905a2c22b83f4299b6c4779ca4344fff25f136) to view it.`
+          `NICE, the ${CONFIG.NFT_NAME} is yours!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
